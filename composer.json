@@ -13,8 +13,8 @@
     "require": {
         "php": ">=7.0",
         "dragonbe/vies": "^1.0.2",
-        "symfony/dependency-injection": "^2.8||^3.0||^4.0",
-        "symfony/validator": "^2.8||^3.0||^4.0"
+        "symfony/dependency-injection": "^2.8||^3.0||^4.0||^5.0",
+        "symfony/validator": "^2.8||^3.0||^4.0||^5.0"
     },
     "require-dev": {
         "myonlinestore/coding-standard": "^1.0",
