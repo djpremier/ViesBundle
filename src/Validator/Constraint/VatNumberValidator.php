@@ -41,7 +41,8 @@ final class VatNumberValidator extends ConstraintValidator
             return;
         }
 
-        $format = $constraint->getFormat();
+        // $format = $constraint->getFormat();
+        $format = substr($value, 0, 2);
         $isValid = false;
 
         try {
